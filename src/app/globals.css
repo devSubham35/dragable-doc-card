@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  color: rgb(255, 184, 79);
+}
+
+@font-face {
+  font-family: "100";
+  src: url("../font/gilroy/Gilroy-Regular.ttf");
+}
+@font-face {
+  font-family: "200";
+  src: url("../font/gilroy/Gilroy-Medium.ttf");
+}
+@font-face {
+  font-family: "300";
+  src: url("../font/gilroy/Gilroy-SemiBold.ttf");
+}
+@font-face {
+  font-family: "400";
+  src: url("../font/gilroy/Gilroy-Bold.ttf");
+}
+@font-face {
+  font-family: "500";
+  src: url("../font/gilroy/Gilroy-ExtraBold.ttf");
+}
